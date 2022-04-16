@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>HOTEL CENTER POINT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="main.css" />
+    <script
+      src="https://kit.fontawesome.com/dbed6b6114.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="./logo.png" type="image/png" />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- fonts -->
+    <link rel="stylesheet" href="fonts.css" />
+    <!-- normalize css -->
+    <link rel="stylesheet" href="normalize.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="utility.css" />
+
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <!-- navbar  -->
+    <nav class="navbar">
+      <div class="container flex">
+        <a href="index.html" style="font-weight: 900; font-size: 40px;" class="site-brand"> Trip<span>To</span> </a>
+
+        <button type="button" id="navbar-show-btn" class="flex">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div id="navbar-collapse">
+          <button type="button" id="navbar-close-btn" class="flex">
+            <i class="fas fa-times"></i>
+          </button>
+          <ul class="navbar-nav ul_1">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="gallery.html" class="nav-link">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a href="blog.html" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="hotel.html" class="nav-link">Hotel</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- end of navbar  -->
+    <!-- header -->
+    <header class="header" id="header">
+      <div class="head-top">
+        <div class="site-name"></div>
+      </div>
+
+      <div class="head-bottom flex">
+        <h2>HOTEL CENTER POINT</h2>
+        <p>
+          Hotel Center Point will make you live magical moments ,experiences and
+          memories that you will cherish forever, respecting the environment,
+          conserving the ecosystem
+        </p>
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- side navbar -->
+    <div class="sidenav" id="sidenav">
+      <span class="cancel-btn" id="cancel-btn">
+        <i class="fas fa-times"></i>
+      </span>
+
+      <ul class="navbar">
+        <li><a href="#header">home</a></li>
+        <li><a href="#services">services</a></li>
+        <li><a href="#rooms">rooms</a></li>
+        <li><a href="#customers">customers</a></li>
+      </ul>
+      <button class="btn sign-up">sign up</button>
+      <button class="btn log-in">log in</button>
+    </div>
+    <!-- end of side navbar -->
+
+    <!-- fullscreen modal -->
+    <div id="modal"></div>
+    <!-- end of fullscreen modal -->
+
+    <!-- body content  -->
+    <section class="services sec-width" id="services">
+      <div class="title">
+        <h2>services</h2>
+      </div>
+      <div class="services-container">
+        <!-- single service -->
+        <article class="service">
+          <div class="service-icon">
+            <span>
+              <i class="fas fa-utensils"></i>
+            </span>
+          </div>
+          <div class="service-content">
+            <h2>Food Service/ Food Runner</h2>
+            <p>
+              The best organic quality is a matter of course for us. But what
+              would the highest quality ingredients be without the necessary
+              know-how how to process them into dreamy dishes in the best
+              possible way? Cooking means real craft in all of our BIO HOTELS.
+              The chefs in our organic restaurants know that very well.
+            </p>
+          </div>
+        </article>
+        <!-- end of single service -->
+        <!-- single service -->
+        <article class="service">
+          <div class="service-icon">
+            <span>
+              <i class="fas fa-swimming-pool"></i>
+            </span>
+          </div>
+          <div class="service-content">
+            <h2>Refreshment</h2>
+            <p>
+              The expected welcome refreshment is a bottle of wine, a small
+              cheese tray, a fruit place, crackers, cookies or any combination
+              of the five. Nowadays, though, you must look beyond the
+              perfunctory and truly own this aspect of the guest experience if
+              you are to make a lasting impression.
+            </p>
+          </div>
+        </article>
+        <!-- end of single service -->
+        <!-- single service -->
+        <article class="service">
+          <div class="service-icon">
+            <span>
+              <i class="fas fa-broom"></i>
+            </span>
+          </div>
+          <div class="service-content">
+            <h2>Housekeeping</h2>
+            <p>
+              There’s never a dull moment in a hotel’s housekeeping department!
+              The entire team works together to make the hotel shine - literally
+              - so that guests can have the best possible experience.
+            </p>
+          </div>
+        </article>
+        <!-- end of single service -->
+        <!-- single service -->
+        <article class="service">
+          <div class="service-icon">
+            <span>
+              <i class="fas fa-door-closed"></i>
+            </span>
+          </div>
+          <div class="service-content">
+            <h2>Room Security</h2>
+            <p>
+              The guest, who comes to a particular hotel, comes with an
+              understanding that he and his belongings both will be safe and
+              secure during his stay at the hotel. At the same time it is also
+              quite important that the hotel staff and assets are protected and
+              secure.
+            </p>
+          </div>
+        </article>
+        <!-- end of single service -->
+      </div>
+    </section>
+
+    <div class="book">
+      <form class="book-form">
+        <div class="form-item">
+          <label for="checkin-date">Check In Date: </label>
+          <input type="date" id="chekin-date" />
+        </div>
+        <div class="form-item">
+          <label for="checkout-date">Check Out Date: </label>
+          <input type="date" id="chekout-date" />
+        </div>
+        <div class="form-item">
+          <label for="adult">Adults: </label>
+          <input type="number" min="1" value="1" id="adult" />
+        </div>
+        <div class="form-item">
+          <label for="children">Children: </label>
+          <input type="number" min="1" value="1" id="children" />
+        </div>
+        <div class="form-item">
+          <label for="rooms">Rooms: </label>
+          <input type="number" min="1" value="1" id="rooms" />
+        </div>
+        <div class="form-item">
+          <input type="submit" class="btn" value="Book Now" />
+        </div>
+      </form>
+    </div>
+
+    <section class="rooms sec-width" id="rooms">
+      <div class="title">
+        <h2>rooms</h2>
+      </div>
+      <div class="rooms-container">
+        <!-- single room -->
+        <article class="room">
+          <div class="room-image">
+            <img src="./img1.jpg" alt="room image" />
+          </div>
+          <div class="room-text">
+            <h3>Deluxe Suite</h3>
+            <ul>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                Individually air conditioning system
+              </li>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                Smart TV with satellite channels
+              </li>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                Branded bathroom amenities
+              </li>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                Gym dumbbells
+              </li>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                Mini bar
+              </li>
+            </ul>
+            <p>
+              Deluxe as a word came from the French equivalent of luxury (de
+              luxe). In luxury hospitality Deluxe suite is the first “true
+              suite” in the suite types list, because it offers separated living
+              area and sleeping area and meet all of the luxury suite
+              requirements.
+            </p>
+            <p>
+              A classical minimalist style suite with high quality materials.
+              Deluxe suites are recommended for people who like spacious
+              accommodation in reasonable price.
+            </p>
+            <p class="rate"><span>4000Rs/-/</span> Per Night</p>
+            <button type="button" class="btn">book now</button>
+          </div>
+        </article>
+        <!-- end of single room -->
+        <!-- single room -->
+        <article class="room">
+          <div class="room-image">
+            <img src="./img2.jpg" alt="room image" />
+          </div>
+          <div class="room-text">
+            <h3>Junior Suites</h3>
+            <ul>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                Room size 52 sqm
+              </li>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                King Bed
+              </li>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                Carrara marble bathroom
+              </li>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                Large marble bathtub
+              </li>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                Bathroom Mirror TV Screen
+              </li>
+            </ul>
+            <p>
+              Junior suites are perfect for travelers, who just like to taste
+              the feeling of luxury hotel suites. If you have never ever booked
+              a hotel suite before, may you try junior suite first. ?
+            </p>
+            <p>
+              The main reason is, that junior suites usually offers one large
+              airspace only, like a bigger room. However, we can find Junior
+              Suite in the accommodation menu ibahn many luxury hotels.
+            </p>
+            <p class="rate"><span>5000Rs/- /</span> Per Night</p>
+            <button type="button" class="btn">book now</button>
+          </div>
+        </article>
+        <!-- end of single room -->
+        <!-- single room -->
+        <article class="room">
+          <div class="room-image">
+            <img src="./img3.jpg" alt="room image" />
+          </div>
+          <div class="room-text">
+            <h3>Terrace Suites</h3>
+            <ul>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                Air Conditioning
+              </li>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                Flat screen TV
+              </li>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                Electric Kettle
+              </li>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                Free WIFI
+              </li>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                Mini bar
+              </li>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                Tea/Coffee Making
+              </li>
+            </ul>
+            <p>
+              If you like big terraces with wonderful view and you like to spend
+              most of your time outside instead of inside in your vacation,
+              terrace suite will be perfect for you.
+            </p>
+            <p>
+              Terrace suite is the most popular and the most beloved suite type.
+              Why? Simply because it offers a large outdoor terrace with garden
+              furniture, while offering spacious luxury interior as well.
+            </p>
+            <p class="rate"><span>5000Rs/- /</span> Per Night</p>
+            <button type="button" class="btn">book now</button>
+          </div>
+        </article>
+        <!-- end of single room -->
+      </div>
+    </section>
+
+    <section class="customers" id="customers">
+      <div class="sec-width">
+        <div class="title">
+          <h2>customers</h2>
+        </div>
+        <div class="customers-container">
+          <!-- single customer -->
+          <div class="customer">
+            <div class="rating">
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="far fa-star"></i></span>
+            </div>
+            <h3>We Loved it</h3>
+            <p>
+              It was a fabulous stay at the resort and the attention to details
+              and personalized service was absolutely brilliant. My heartiest
+              congratulations to the entire team for making this stay memorable
+              specially for the children.The quality of the staff, the superb
+              food, wonderfully comfortable rooms.
+            </p>
+            <img src="./cus1.jpg" alt="customer image" />
+            <span>Akash Mahajan,Indore</span>
+          </div>
+          <!-- end of single customer -->
+          <!-- single customer -->
+          <div class="customer">
+            <div class="rating">
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="far fa-star"></i></span>
+            </div>
+            <h3>Comfortable Living</h3>
+            <p>
+              Would like to extend our special gratitude to Mr. Ashish Rawat who
+              made our stay truly memorable. Our room was beautifully decorated,
+              It was stunning!!.Also would like to thank Mr. Ayush Rawat in F&B
+              for his warm-hearted "WoW" service and attention to detail.
+              Outstanding!!! Greatly appreciated.
+            </p>
+            <img src="./cus2.jpg" alt="customer image" />
+            <span>Anushka Singh,Jaipur</span>
+          </div>
+          <!-- end of single customer -->
+          <!-- single customer -->
+          <div class="customer">
+            <div class="rating">
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="far fa-star"></i></span>
+            </div>
+            <h3>Nice Place</h3>
+            <p>
+              The property is exceptionally beautiful and the staff provides a
+              very warm welcoming experience. Stayed for 5 days and really
+              enjoyed the bird and Peacock sounds every morning. The wonderful
+              scenery coupled with serenity was very relaxing
+            </p>
+            <img src="./cus3.jpg" alt="customer image" />
+            <span>Vivek Sharma,Mumbai</span>
+          </div>
+          <!-- end of single customer -->
+        </div>
+      </div>
+    </section>
+    <!-- end of body content -->
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div>
+          <h2>About Us</h2>
+          <p>
+            The hotel is very close to the Mosque and Street within a
+            five-minute walk. It’s safe, no doubt, and the service is very good.
+            Wherever you go, the hotel staff actively greet the breakfast.
+            Although there are not many varieties, the quality of bread and
+            cakes are from Pierre Hermé. The only highlight of the room is the
+            bathroom but hygiene I'm a little disappointed in the situation.
+          </p>
+          <ul class="social-icons">
+            <li class="flex">
+              <i class="fa fa-twitter fa-2x"></i>
+            </li>
+            <li class="flex">
+              <i class="fa fa-facebook fa-2x"></i>
+            </li>
+            <li class="flex">
+              <i class="fa fa-instagram fa-2x"></i>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>Useful Links</h2>
+          <a href="#">Blog</a>
+          <a href="#">Rooms</a>
+          <a href="#">Subscription</a>
+          <a href="#">Gift Card</a>
+        </div>
+
+        <div>
+          <h2>Privacy</h2>
+          <a href="#">Career</a>
+          <a href="#">About Us</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Services</a>
+        </div>
+
+        <div>
+          <h2>Have A Question</h2>
+          <div class="contact-item">
+            <span>
+              <i class="fas fa-map-marker-alt"></i>
+            </span>
+            <span> 8-A Shivkrupa Colony, Navlakhha,Indore(M.P) </span>
+          </div>
+          <div class="contact-item">
+            <span>
+              <i class="fas fa-phone-alt"></i>
+            </span>
+            <span> +917879180848 </span>
+          </div>
+          <div class="contact-item">
+            <span>
+              <i class="fas fa-envelope"></i>
+            </span>
+            <span> avani.junankar18@gmail.com </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end of footer -->
+
+    <script src="script.js"></script>
+    <script>
+      // image modal
+      const allGalleryItem = document.querySelectorAll(".gallery-item");
+      const imgModalDiv = document.getElementById("img-modal-box");
+      const modalCloseBtn = document.getElementById("modal-close-btn");
+      const nextBtn = document.getElementById("next-btn");
+      const prevBtn = document.getElementById("prev-btn");
+      let imgIndex = 0;
+
+      allGalleryItem.forEach((galleryItem) => {
+        galleryItem.addEventListener("click", () => {
+          imgModalDiv.style.display = "block";
+          let imgSrc = galleryItem.querySelector("img").src;
+          imgIndex = parseInt(imgSrc.split("-")[1].substring(0, 1));
+          showImageContent(imgIndex);
+        });
+      });
+
+      // next click
+      nextBtn.addEventListener("click", () => {
+        imgIndex++;
+        if (imgIndex > allGalleryItem.length) {
+          imgIndex = 1;
+        }
+        showImageContent(imgIndex);
+      });
+
+      // previous click
+      prevBtn.addEventListener("click", () => {
+        imgIndex--;
+        if (imgIndex <= 0) {
+          imgIndex = allGalleryItem.length;
+        }
+        showImageContent(imgIndex);
+      });
+
+      function showImageContent(index) {
+        imgModalDiv.querySelector(
+          "#img-modal img"
+        ).src = `images/gallery-${index}.jpg`;
+      }
+
+      modalCloseBtn.addEventListener("click", () => {
+        imgModalDiv.style.display = "none";
+      });
+    </script>
+  </body>
+</html>
