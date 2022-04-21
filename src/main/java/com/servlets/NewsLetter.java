@@ -47,7 +47,10 @@ public class NewsLetter extends HttpServlet {
 		
 		int status = userdao.saveData(newsletter);
 		
-		if(status == 1) out.print("<h1>asjdfl;asjk</h1>");
+		if(status == 1) {
+			out.print("<h1>Yay!! , Successfully Subscribed</h1>");
+			out.print("<h1>"+"<a href='index.html'>Explore More!!! :)</a>"+"</h1>");
+		}
 		else out.print("<h1>Error</h1>") ;
 		
 	}

@@ -46,9 +46,10 @@ public class Contact extends HttpServlet {
 		int status = UserDAO.saveData(contact) ;
 		
 		if(status == 1) {
-			out.print("<h1>a;slfjkkas;lk</h1>");
+			out.print("<h1>Our Staff Member will connect with You Soon!!!</h1>");
+			out.print("<h1>"+"<a href='index.html'>Explore More!!! :)</a>"+ "</h1>");
 		}
-		else out.println("<h1>504 ERROR</h1>");
+		else out.println("<h1>ERROR</h1>");
 	}
 
 }
